@@ -1,0 +1,19 @@
+{
+	"name" : "dassociates/html",
+	"description" : "Object-Oriented Implementation of HTML",
+	"license" : "BSD-3-Clause",
+	"support" : {
+		"issues" : "https://github.com/dassociates/html/issues",
+		"email" : "cduarte@dassociatesinc.com"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Dassociates\\Html\\" : "src/"
+		}
+	},
+	"keywords" : [
+		"laminas",
+		"html"
+	],
+	"homepage" : "https://www.dassociatesinc.com"
+}

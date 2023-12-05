@@ -1,0 +1,13 @@
+<div class="container-fluid">
+	<div class="row row-cols-2">
+		<div class="col"><?php echo $this->partial('base/subform', $contact); ?></div>
+		<div class="col">
+			<div class="row"><div class="col"><?php echo $this->partial('base/subtable', $contact_addr); ?></div></div>
+			<div class="row"><div class="col"><?php echo $this->partial('base/subtable', $contact_phone); ?></div></div>
+			<div class="row"><div class="col"><?php echo $this->partial('base/subtable', $contact_email); ?></div></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col"><?php //echo $this->partial('base/subtable', $contact_list); ?></div>
+	</div>
+</div>
